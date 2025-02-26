@@ -1,0 +1,57 @@
+:root {
+  --c-primary: #a1e3f9;
+  --c-secondary: #3f8fe5;
+  --c-tertiary: #5b92d1;
+  --c-text: #fbfbfb;
+  --c-text-secondary: #e8f9ff;
+  --c-text-tertiary: #424343;
+  --c-button: #98d8ef;
+  --box-shadow: 0 15px 25px rgb(0, 0, 0, 0.08);
+  --font-base: "Roboto", sans-serif;
+  --transition: all 0.5s ease;
+}
+
+body {
+  font-family: var(--font-base);
+}
+
+.fs-lg {
+  font-size: 7rem;
+}
+
+img {
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .port-last-img {
+    display: none;
+  }
+}
+
+@media (max-width: 769px) {
+  /* gap portfolio img */
+  .gp-img {
+    margin-bottom: 10px;
+  }
+}
+
+/* .navbar {
+  background-color: var(--c-primary) !important;
+}
+
+.nav-link {
+  color: var(--c-text);
+}
+
+.nav-link:hover {
+  color: var(--c-text-tertiary);
+}
+
+a {
+  color: var(--c-secondary);
+}
+
+a:hover {
+  color: var(--c-tertiary);
+} */
